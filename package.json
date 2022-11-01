@@ -1,0 +1,20 @@
+{
+  "name": "esn-image-captcha",
+  "version": "0.0.1",
+  "author": "Ehsan Karimi <esnkrimi@gmail.com>",
+  "keywords": [
+    "konvajs",
+    "konva",
+    "captcha",
+    "image captcha",
+    "authentication",
+    "angular"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^14.0.0",
+    "@angular/core": "^14.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
