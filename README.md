@@ -3,44 +3,7 @@
 
 Image captcha using angular and konvaJs .
 
-----------------------------DEMO
 
-https://esn-image-captcha.stackblitz.io
+https://www.npmjs.com/package/esn-image-captcha
 
-https://stackblitz.com/edit/esn-image-captcha
-
-
-----------------------------INSTALLATION
-
-        npm i esn-image-captcha --force
-
-        and in app.module
-
-        import {EsnImageCaptchaModule } from 'esn-image-captcha'
-
-----------------------------NOTE
-
-Firstly,You must install konva 
-
-        npm i konva
-
-----------------------------USAGE
-
-----------------HTML FILE
-
-        <esn-image-captcha
-        [data]="data"
-        (result)="result($event)"
-        >    
-        </esn-image-captcha>
-
-----------------TS FILE
-
-        data = {
-                captchaImageAddress: 'assets/myCaptchaImage.jpg',
-                width: 300,//outer panel width
-                height: 200,//outer panel height
-                clipWidth:100,//inner panel width
-                cliHeight:200,//inner panel height
-                precision:100,//1 to 100 . 10 is fit
-            }
+![1010](https://user-images.githubusercontent.com/47683843/199177323-6eec8f5a-ab24-4288-90ef-9b647fb47a39.png)
